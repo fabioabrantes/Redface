@@ -1,6 +1,5 @@
-<h1 align=center>
-  ## **:rocket: Sistema de reconhecimento de emoções faciais produzido em 2015**
-  
+## **:rocket: Sistema de reconhecimento de emoções faciais produzido em 2015**
+<h1 align=center> 
 <img src="https://what-when-how.com/wp-content/uploads/2012/06/tmp7527314_thumb.png" />
 </h1>
 
