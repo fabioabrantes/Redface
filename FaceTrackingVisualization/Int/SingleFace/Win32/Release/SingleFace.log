@@ -1,0 +1,316 @@
+﻿Build started 19/12/2012 13:29:14.
+     1>Project "C:\Users\Fábio\Desktop\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\".
+       InitializeBuildStatus:
+         Creating "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.pch" /Fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\\" /Fd"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.pch" /Fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\\" /Fd"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt eggavatar.cpp SingleFace.cpp FTHelper.cpp KinectSensor.cpp Visualize.cpp
+         eggavatar.cpp
+         SingleFace.cpp
+     1>SingleFace.cpp(495): warning C4018: '<' : signed/unsigned mismatch
+     1>SingleFace.cpp(500): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SingleFace.cpp(501): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SingleFace.cpp(502): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SingleFace.cpp(382): warning C4101: 'a' : unreferenced local variable
+     1>SingleFace.cpp(382): warning C4101: 'b' : unreferenced local variable
+     1>SingleFace.cpp(541): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
+     1>SingleFace.cpp(542): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
+     1>SingleFace.cpp(543): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
+     1>SingleFace.cpp(544): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
+     1>SingleFace.cpp(567): warning C4018: '<' : signed/unsigned mismatch
+     1>SingleFace.cpp(574): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(575): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(576): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(577): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(578): warning C4018: '<' : signed/unsigned mismatch
+     1>SingleFace.cpp(581): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(583): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(585): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(587): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(590): warning C4018: '<' : signed/unsigned mismatch
+     1>SingleFace.cpp(554): warning C4101: 'cor' : unreferenced local variable
+     1>SingleFace.cpp(552): warning C4101: 'aux3' : unreferenced local variable
+     1>SingleFace.cpp(552): warning C4101: 'aux2' : unreferenced local variable
+     1>SingleFace.cpp(552): warning C4101: 'aux1' : unreferenced local variable
+     1>SingleFace.cpp(552): warning C4101: 'aux4' : unreferenced local variable
+     1>SingleFace.cpp(683): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>SingleFace.cpp(735): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(736): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(740): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(742): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(754): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(755): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(759): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(761): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(660): warning C4101: 'qtdAU' : unreferenced local variable
+     1>SingleFace.cpp(665): warning C4101: 'distAtual' : unreferenced local variable
+     1>SingleFace.cpp(665): warning C4101: 'distNeutro' : unreferenced local variable
+     1>SingleFace.cpp(668): warning C4101: 'AU' : unreferenced local variable
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(913): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(915): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(925): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(927): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(936): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(938): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(944): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(944): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(944): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(944): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(946): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(946): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(946): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(946): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(954): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(954): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(954): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(954): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(956): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(956): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(956): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(956): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(966): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(966): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(966): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(966): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(968): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(968): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(968): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(968): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(980): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(980): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(980): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(980): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(980): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(980): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(982): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(982): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(982): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(982): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(982): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(982): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(990): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(992): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(998): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(998): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(998): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(998): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1000): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1000): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1000): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1000): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1004): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1004): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1004): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1004): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1006): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1006): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1006): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1006): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1009): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1009): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1009): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1009): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1010): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1010): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1010): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1010): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1013): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1013): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1013): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1013): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1014): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1014): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1014): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1014): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1017): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1017): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1017): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1017): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1018): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1018): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1018): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1018): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1021): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1021): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1021): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1021): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1022): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1022): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1022): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1022): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1025): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1026): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1029): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1029): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1029): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1029): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1030): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1030): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1030): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1030): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1033): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1033): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1033): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1033): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1034): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1034): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1034): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1034): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1037): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1038): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1041): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1041): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1041): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1041): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1042): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1042): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1042): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(1042): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>SingleFace.cpp(905): warning C4101: 'i' : unreferenced local variable
+     1>SingleFace.cpp(905): warning C4101: 'aux2' : unreferenced local variable
+     1>SingleFace.cpp(905): warning C4101: 'aux1' : unreferenced local variable
+         FTHelper.cpp
+         KinectSensor.cpp
+         Visualize.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.res" SingleFace.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.exe" /INCREMENTAL:NO /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.lib" /MACHINE:X86 "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.res"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\eggavatar.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\FTHelper.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\KinectSensor.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\stdafx.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\Visualize.obj"
+         Generating code
+         Finished generating code
+         SingleFace.vcxproj -> C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\SingleFace.exe;#1" /manifest "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.exe.intermediate.manifest"
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.6.0\Redist\x86\FaceTrackLib.dll" "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\" /eiycq
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.6.0\Redist\x86\FaceTrackData.dll" "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\SingleFace\Win32\Release\" /eiycq
+         
+         :VCEnd
+         1 arquivo(s) copiado(s)
+         1 arquivo(s) copiado(s)
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.unsuccessfulbuild".
+         Touching "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\SingleFace\Win32\Release\SingleFace.lastbuildstate".
+     1>Done Building Project "C:\Users\Fábio\Desktop\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.31

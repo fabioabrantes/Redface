@@ -1,0 +1,56 @@
+﻿Build started 06/01/2013 23:44:51.
+     1>Project "C:\Users\Fábio\Desktop\FaceTrackingVisualization\MultiFace\MultiFace.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\".
+       InitializeBuildStatus:
+         Creating "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.pch" /Fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\\" /Fd"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.pch" /Fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\\" /Fd"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\SingleFace\eggavatar.cpp ..\SingleFace\KinectSensor.cpp ..\SingleFace\Visualize.cpp FTHelper2.cpp MultiFace.cpp
+         MultiFace.cpp
+         FTHelper2.cpp
+         Visualize.cpp
+         KinectSensor.cpp
+         eggavatar.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res" MultiFace.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res" "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.lib" /MACHINE:X86 "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\eggavatar.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\KinectSensor.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\Visualize.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\FTHelper2.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\stdafx.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest" /manifest "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res" "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.lib" /MACHINE:X86 "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\eggavatar.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\KinectSensor.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\Visualize.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\FTHelper2.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.obj"
+         "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\stdafx.obj"
+         MultiFace.vcxproj -> C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.6.0\Redist\x86\FaceTrackLib.dll" "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\" /eiycq
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.6.0\Redist\x86\FaceTrackData.dll" "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\" /eiycq
+         :VCEnd
+         1 arquivo(s) copiado(s)
+         1 arquivo(s) copiado(s)
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.unsuccessfulbuild".
+         Touching "C:\Users\Fábio\Desktop\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.lastbuildstate".
+     1>Done Building Project "C:\Users\Fábio\Desktop\FaceTrackingVisualization\MultiFace\MultiFace.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.30
