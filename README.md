@@ -8,14 +8,14 @@ o presente trabalho, realizado em 2015 durante o mestrado, propõe melhorias no 
 faciais. 
 
 ## **:computer: TECNOLOGIAS**
-- Lingauem utilizada foi o c++
-- ferramenta visual studio 10
+-Lingauem utilizada foi o c++
+-Ferramenta visual studio 10
 -kinect versão 1
 -Windows Software Development Kit (SDK) version 1.6
 
 #### **Informações**
-- a pasta percepcao_final contém um protótipo de reconhecimento facial produzido durante o messtrado com o objetivo de ver resultados dos classificadores. Nas referências detalha melhor.
-a pasta FaceTrackingVisualization contém a versão alfa do reconhecimento de emoções por expressões faciais. Devido a motivos pessoais o projeto não foi continuado para melhorias com uso das novas tecnologias 3D existentes.
+- A pasta percepcao_final contém um protótipo de reconhecimento facial produzido durante o messtrado com o objetivo de ver resultados dos classificadores. Nas referências detalha melhor.
+- A pasta FaceTrackingVisualization contém a versão alfa do reconhecimento de emoções por expressões faciais. Devido a motivos pessoais o projeto não foi continuado para melhorias com uso das novas tecnologias 3D existentes.
 
 
 ## **:books: REFERÊNCIAS**
